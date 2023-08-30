@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import  HelloWorld from '../components/HelloWorld.vue' // Import your homepage component
+import  HelloWorld from '../components/HelloWorld.vue'; // Import your homepage component
 import CookiePolicy from '../components/CookiePolicy.vue'; // Import your Cookie Policy component
+import PrivacyPolicy from '../components/PrivacyPolicy.vue'; 
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/policy',
     name: 'CookiePolicy',
     component: CookiePolicy,
+  },
+  {
+    path: '/privacy',
+    name: 'PrivacyPolicy',
+    component: PrivacyPolicy,
   },
 ];
 

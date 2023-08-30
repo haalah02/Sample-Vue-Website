@@ -32,8 +32,9 @@ const count = ref(0)
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 
-  <router-link to="/policy">Cookie Policy</router-link>
-  
+  <!-- <router-link to="/policy">Cookie Policy</router-link> -->
+  <br />
+  <router-link to="/privacy">Privacy Policy</router-link>
 </template>
 
 <style scoped>
