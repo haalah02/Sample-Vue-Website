@@ -31,8 +31,8 @@ const count = ref(0)
     in your IDE for a better DX
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
-  
-  <router-link to="/cookie-policy">Cookie Policy</router-link>
+
+  <router-link to="/policy">Cookie Policy</router-link>
 </template>
 
 <style scoped>
@@ -40,3 +40,18 @@ const count = ref(0)
   color: #888;
 }
 </style>
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style>
+
