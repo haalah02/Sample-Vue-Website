@@ -47,19 +47,6 @@ a.cky-banner-element {
 
 <template>
     <div>
-      <style>
-        .cky-banner-element {
-          padding: 8px 30px;
-          background: #f8f9fa;
-          color: #858a8f;
-          border: 1px solid #dee2e6;
-          box-sizing: border-box;
-          border-radius: 2px;
-          cursor: pointer;
-        }
-        /* Add any other styles here */
-      </style>
-  
       <h1 class="cookie-policy-h1">Cookie Policy</h1>
       <p>
         Effective Date: 30-Aug-2023 <br />
@@ -123,7 +110,18 @@ a.cky-banner-element {
     },
   };
   </script>
-  
+  <style>
+  .cky-banner-element {
+    padding: 8px 30px;
+    background: #f8f9fa;
+    color: #858a8f;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  /* Add any other styles here */
+</style>
   <style>
   /* Add any component-specific styles here */
   </style>
